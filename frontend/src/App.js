@@ -29,7 +29,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('https://surefintech-1.onrender.com', {
+      const response = await fetch('https://surefintech-1.onrender.com/parse-statement', {
         method: 'POST',
         body: formData,
       });
