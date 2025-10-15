@@ -1,0 +1,13 @@
+# Ignore Python backend files
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/uploads/
+
+# Ignore general files
+.vscode/
+*.log
+.DS_Store
