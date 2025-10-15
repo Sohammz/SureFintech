@@ -41,7 +41,7 @@ function App() {
       const result = await response.json();
       setData(result);
     } catch (err) {
-      setError('Error parsing PDF. Please try again.');
+      setError('Error parsing PDF. Please try again.'+err.message);
     } finally {
       setLoading(false);
     }
